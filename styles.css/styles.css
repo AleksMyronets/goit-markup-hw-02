@@ -1,11 +1,11 @@
 body {
     font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    color: #000000;
 }
 
-* { 
-    margin: 0;
-    padding: 0;
-}
+.none{display: none;}
+
+ul, li, a{list-style-type: none;}
 
 .header {
     background: #FFFFFF;
@@ -42,6 +42,10 @@ body {
     color: #2196F3;
 }
 
+.header-nav-link-portfolio {
+    color: #2196F3;
+}
+
 .contact a {
     font-weight: 500;
     font-size: 14px;
@@ -56,10 +60,6 @@ body {
 
 .contact .contact-link:hover,
 .contact .contact-link:focus {
-    color: #2196F3;
-}
-
-.contact-mailto {
     color: #2196F3;
 }
 
@@ -91,6 +91,7 @@ body {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 }
 
 .hi-banner-button {
@@ -122,7 +123,6 @@ body {
 }
 
 .to-do-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -180,7 +180,6 @@ body {
 }
 
 .jobs-title {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -210,8 +209,6 @@ body {
 }
 
 .adress {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -219,8 +216,6 @@ body {
 }
 
 .footer-contact-link {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px1.71;
     letter-spacing: 0.03em;
@@ -232,7 +227,68 @@ body {
     color: #2196F3;
 }
 
+.filter-list {
+    background-color: #FFFFFF;
+}
 
+.filter-button-all {
+    width: 73px;
+    height: 38px;
+    top: 174px;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+}
+
+.filter-button {
+    width: 125px;
+    height: 38px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+}
+
+.filter-title-all {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.filter-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.project-body {
+    box-sizing: border-box;
+    width: 370px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.project-name-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.filter-text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
 
 
