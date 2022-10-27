@@ -1,120 +1,89 @@
-body{
-    background-color: #FFFFFF;
-    color: #212121;
-    font-family: 'Roboto';
-    }
-
-    ul, li, a{
-    text-decoration: none;
-    list-style-type: none;
-    }
-
-.logo{
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    }
-
-.logo-studio{
-    color: #000000;
-    }
-
-.link{
-    width: 72px;
-    height: 16px;
-    left: 548px;
-    top: 32px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-    }
-
-.link-studio{
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-    }
-
-.link{
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #757575;
+body {
+    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
 }
 
-.contact-link{
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    font-family: 'Roboto';
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #FFFFFF;
+  
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-studio {
+    color: #000000;
+}
+
+.header-nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-nav-link-studio {
+    color: #2196F3;
+}
+
+.contact a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    }
+    text-decoration: none;
+}
 
-.contact-mailto{
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.contact .contact-link {
+    color: #757575;}
+
+.contact .contact-link:hover,
+.contact .contact-link:focus {
     color: #2196F3;
-    }
+}
 
-.banner{
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+.contact-mailto {
+    color: #2196F3;
+}
+
+.banner {
     background: #2F303A;
-    }
+    text-align: center;
+}
 
-.banner-title{
+.button {
+    cursor: pointer;
+}
+
+.banner-title {
     width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    }
+}
 
-.banner-button{
+.banner-button {
     width: 216px;
     height: 50px;
     left: 692px;
@@ -122,57 +91,158 @@ body{
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    }
-.hi-banner-button{
-    width: 152px;
-    height: 30px;
-    left: 724px;
-    top: 440px;
-    font-family: 'Roboto';
-    font-style: normal;
+}
+
+.hi-banner-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    }
-    
-.to-do{
-    width: 1170px;
-    height: 98px;
-    left: 215px;
-    top: 774px;
-    }
+}
 
-.to-do-body{}
+.to-do {
+    background-color: #f5f5f5;
+}
 
-.to-do-title{
+.to-do-body {
     width: 270px;
-    font-family: 'Roboto';
+    top: 774px;
+}
+
+.to-do-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
-    }
-.to-do-text{
-    width: 270px;
-    font-family: 'Roboto';
+}
+
+.to-do-text {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    }
+}
 
 .work-img
-.work-img-title
-.work-img-list
-.team
-.team-list
-.team-body
-.name-title
-.jobs-title
+    {
+       background-color: #FFFFFF;
+    }
+
+.work-img-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.work-img-list{}
+
+.work-img-img {}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-comands {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.jobs-list {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-body {
+    border-radius: 0px;
+}
+
+.name-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.jobs-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-logo-studio {
+    color: #FFFFFF;
+}
+
+.adress {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: #2196F3;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
