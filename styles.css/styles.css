@@ -209,6 +209,7 @@ ul, li, a{list-style-type: none;}
 }
 
 .adress {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -216,6 +217,7 @@ ul, li, a{list-style-type: none;}
 }
 
 .footer-contact-link {
+    font-style: normal;
     font-size: 14px;
     line-height: 24px1.71;
     letter-spacing: 0.03em;
