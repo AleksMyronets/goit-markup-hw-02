@@ -230,6 +230,11 @@ body {
     border: none;
 }
 
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--color-blue);
+}
+
 .filter-title-all {
     font-weight: 500;
     font-size: 16px;
@@ -244,6 +249,11 @@ body {
     line-height: 1.62;
     text-align: center;
     color: var(--color-black);
+}
+
+.filter-title:hover,
+.filter-title:focus {
+    color: var(--color-white);
 }
 
 .project-body {
