@@ -1,11 +1,14 @@
+:root {
+    --color-black: #000000;
+    --color-grey: #757575;
+    --color-blue: #2196F3;
+    --color-white: #FFFFFF;
+    --color-dark-grey: #2F303A;
+    --color-light-grey: #F5F4FA;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    --color-black: #000000;
-    --color-grey:  #757575;
-    --color-blue:  #2196F3;
-    --color-white: #FFFFFF;
-    --color-dark-grey:  #2F303A;
-    --color-light-grey: #F5F4FA;
     font-size: 14px;
     letter-spacing: 0.03em;
     font-style: normal;
