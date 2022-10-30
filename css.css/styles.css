@@ -12,7 +12,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
     font-style: normal;
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
     text-decoration: none;
 }
 
@@ -44,16 +44,6 @@ body {
     color: var(--color-black);
 }
 
-.contact a {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color:var(--color-grey);
-}
-
-.contact .contact-link {
-    color: var(--color-grey);}
-
 .link:hover,
 .link:focus {
     color: var(--color-blue);
@@ -65,6 +55,19 @@ body {
     letter-spacing: 0.02em;
     color: #222121;
     text-decoration: none;
+}
+
+.list-link-studio {
+    color: var(--color-blue);
+}
+
+.list-link-portfolio {
+    color: var(--color-blue);
+}
+
+.list-link:hover,
+.list-link:focus {
+    color: var(--color-blue);
 }
 
 .banner {
@@ -86,10 +89,6 @@ body {
 }
 
 .banner-button {
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
     background: var(--color-blue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -98,11 +97,14 @@ body {
 
 .hi-banner-button {
     font-weight: 700;
+    font-size: 16px;
     line-height: 1.88;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--color-white);
+    color: var(--color-white)
+    
 }
 
 .to-do {
@@ -110,7 +112,7 @@ body {
 }
 
 .to-do-title {
-    font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--color-black);
@@ -185,11 +187,13 @@ body {
     color: var(--color-white);
 }
 
-.adress {
-    font-style: normal;
-    line-height: 1.17;
+.address {
     color: var(--color-white);
-    text-decoration: none;
+}
+
+.address:hover,
+.address:focus {
+    color: var(--color-blue)
 }
 
 .footer-contact-link {
@@ -233,19 +237,6 @@ body {
     border: none;
 }
 
-.filter-button:hover,
-.filter-button:focus {
-    background-color: var(--color-blue);
-}
-
-.filter-title-all {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    color: var(--color-black);
-}
-
 .filter-title {
     font-weight: 500;
     font-size: 16px;
@@ -257,6 +248,11 @@ body {
 .filter-title:hover,
 .filter-title:focus {
     color: var(--color-white);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--color-blue);
 }
 
 .project-body {
@@ -276,6 +272,8 @@ body {
     line-height: 1.88;
     color: var(--color-grey);
 }
+
+
 
 
 
